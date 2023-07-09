@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: aliceblue;
+    height: 5rem;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1;
+
+
+}
+.nav-links{
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.nav-links li{
+ margin-right: 2rem;
+}
+.logo{
+    margin-left:2rem ;
+     font-size: 1.5rem;
+     font-weight: 100;
+}
